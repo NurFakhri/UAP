@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAP</title>
+  </head>
+  <body>
+    <table border="1px">
+      <thead>
+        <th>Kode</th>
+        <th>Nama Barang</th>
+        <th>Harga</th>
+      </thead>
+      <tbody>
+        <td>001</td>
+        <td>Barang A</td>
+        <td>10000</td>
+      </tbody>
+      <tbody>
+        <td>002</td>
+        <td>Barang B</td>
+        <td>20000</td>
+      </tbody>
+      <tbody>
+        <td>003</td>
+        <td>Barang C</td>
+        <td>30000</td>
+      </tbody>
+    </table>
+    <h1>Inputan User</h1>
+    <div id="data_belanja">
+      <table border="1px" id="data_belanja">
+        <thead>
+          <th>Masukan Kode</th>
+          <th>:</th>
+          <th><input type="number" id="kode" required /></th>
+        </thead>
+        <thead>
+          <th>Banyaknya Barang</th>
+          <th>:</th>
+          <th><input type="number" id="qty" required /></th>
+        </thead>
+        <thead>
+          <th>Masukan Uang</th>
+          <th>:</th>
+          <th><input type="number" id="duid" required /></th>
+        </thead>
+        <tbody>
+          <td>
+            <button name="button" type="button" id="button" onclick="submit()">
+              submit
+            </button>
+          </td>
+        </tbody>
+      </table>
+    </div>
+    <script src="uap.js"></script>
+  </body>
+</html>
